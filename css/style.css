@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('./components/buttons.css');
+@import url('./components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: fixed;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0px;
+}
+
+.banner p {
+  font-size: 18px;
+  color: lightgray;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+}
+
+.text-features {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(14, 14, 14);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  margin: 8px;
+}
+
+.newsletter p {
+  color: white;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.footer a {
+  font-size: 18px;
+  color: white;
+  transition: color .6s ease;
+}
+
+.footer a:hover {
+  color: #FFD201;
+  transition: color .6s ease;
+}
+
+.newsletter {
+  margin: 10px 20px;
+}
